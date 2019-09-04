@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/Sidebar';
 
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Sidebar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
