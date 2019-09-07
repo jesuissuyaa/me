@@ -1,13 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Layout from './components/Layout';
+import Profile from './components/Profile';
+import Works from './components/Works';
+import Skills from './components/Skills';
+import Timeline from './components/Timeline';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Sidebar />
-      <header className="App-header">
+      <Layout>
+        <Profile />
+        <Timeline />
+        {/* <Skills /> */}
+        <Works />
+      </Layout>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -20,7 +29,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
