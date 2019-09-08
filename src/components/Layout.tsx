@@ -7,6 +7,15 @@ const Layout: React.FC = props => (
     <main>
       {props.children}
     </main>
+    <style jsx global>{`
+    main a, main a:visited {
+      color: #89023E;
+      text-decoration: none;
+    }
+    main a:hover {
+      border-bottom: 1px solid #89023e;
+    }
+    `}</style>
     <style jsx>{`
       div {
         background-color: #FAFDF6;
@@ -18,7 +27,7 @@ const Layout: React.FC = props => (
         overflow-y: scroll;
         padding: 0 2rem;
       }
-      
+     
     `}</style>
   </div>
 )

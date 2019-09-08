@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Works from './components/Works';
 import Skills from './components/Skills';
 import Timeline from './components/Timeline';
+import Credits from './components/Credits';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Timeline />
         {/* <Skills /> */}
         <Works />
+        <Credits />
       </Layout>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

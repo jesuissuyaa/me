@@ -78,7 +78,7 @@ const Block: React.FC<BlockProp> = props => (
     </div>
 )
 const Timeline: React.FC = () => (
-  <div>
+  <div id="timeline">
     <h1>TIMELINE</h1>
     <div className="legend-container">
       <div className="legend-item">

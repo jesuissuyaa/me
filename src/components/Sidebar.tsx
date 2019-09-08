@@ -1,5 +1,5 @@
 import React from 'react';
-import estrella from "../assets/estrella.jpg"
+import estrella from "../assets/estrella.jpeg"
 
 const Sidebar: React.FC = () => (
   <aside>
@@ -7,16 +7,23 @@ const Sidebar: React.FC = () => (
      <img src={estrella} alt="愛車のエストレヤ" />
     </div>
     <ul>
-      <li>PROFILE</li>
-      <li>TIMELINE</li>
+      <li><a href="#profile">PROFILE</a></li>
+      <li><a href="#timeline">TIMELINE</a></li>
       {/* <li>SKILLS</li> */}
-      <li>WORKS</li>
-      <li>CREDITS</li>
+      <li><a href="#works">WORKS</a></li>
+      <li><a href="#credits">CREDITS</a></li>
     </ul>
     <style jsx>{`
+      a, a:visited {
+        color: #fafdf6;
+        text-decoration: none;
+      }
+      a:hover {
+        border-bottom: 1px solid #fafdf6;
+      }
       aside {
         align-items: center;
-        background-color: #B5BD89;
+        background-color: #745C97;
         color: #fafdf6;
         display: flex;
         flex-direction: column;
@@ -42,6 +49,7 @@ const Sidebar: React.FC = () => (
       .img-container {
         box-sizing: border-box;
         margin-top: 3rem;
+        padding: 1rem;
         width: 10rem;
       }
       `}</style>
