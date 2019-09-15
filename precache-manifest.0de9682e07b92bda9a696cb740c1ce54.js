@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f15cc22aa7e10e369ae21cf8cba020a",
+    "revision": "1de7341f484236c0b8d93faaac6a22b4",
     "url": "/me/index.html"
   },
   {
-    "revision": "5fbad0cfec09c6ab2532",
+    "revision": "96c8d62272031f448003",
     "url": "/me/static/css/main.6ab2b85e.chunk.css"
   },
   {
-    "revision": "729f123e3abdce0a87fe",
-    "url": "/me/static/js/2.056a8cba.chunk.js"
+    "revision": "b0c7312626f87b7d0e76",
+    "url": "/me/static/js/2.37ae085c.chunk.js"
   },
   {
-    "revision": "5fbad0cfec09c6ab2532",
-    "url": "/me/static/js/main.9073b14f.chunk.js"
+    "revision": "96c8d62272031f448003",
+    "url": "/me/static/js/main.2970aad7.chunk.js"
   },
   {
     "revision": "b16b36f6102d0cc8f957",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d95eb69ea8a848610ef559265ac45af9",
     "url": "/me/static/media/timecard_logo.d95eb69e.png"
+  },
+  {
+    "revision": "e30a7a558d269c1f9cecfdcebd452485",
+    "url": "/me/static/media/vocab-logo.e30a7a55.png"
   }
 ]);
