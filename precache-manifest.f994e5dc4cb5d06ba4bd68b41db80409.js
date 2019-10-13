@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0db96269be5e191555cda90b3a80c34",
+    "revision": "6ded9a998f96783f0bdd14fbfc29861e",
     "url": "/me/index.html"
   },
   {
-    "revision": "f691a7bd43e4dbceb567",
+    "revision": "74bb614b50b6aca944ed",
     "url": "/me/static/css/main.405e349d.chunk.css"
   },
   {
-    "revision": "b0c7312626f87b7d0e76",
-    "url": "/me/static/js/2.37ae085c.chunk.js"
+    "revision": "ca16bb5b04b380a9068c",
+    "url": "/me/static/js/2.04cb049a.chunk.js"
   },
   {
-    "revision": "f691a7bd43e4dbceb567",
-    "url": "/me/static/js/main.c487b682.chunk.js"
+    "revision": "74bb614b50b6aca944ed",
+    "url": "/me/static/js/main.3333d0a5.chunk.js"
   },
   {
     "revision": "b16b36f6102d0cc8f957",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6afc53a5610dd82fa90db6c838226933",
     "url": "/me/static/media/estrella.6afc53a5.jpeg"
+  },
+  {
+    "revision": "a6e94e42837bbe320832b098f6977aa1",
+    "url": "/me/static/media/kashipedia-cover.a6e94e42.png"
   },
   {
     "revision": "715557fa0af1bce4fdfdb559a7d25a6c",
