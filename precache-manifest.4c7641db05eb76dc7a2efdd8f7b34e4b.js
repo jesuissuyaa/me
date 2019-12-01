@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4597f4d958ab9e993aff40d7e2ea908a",
+    "revision": "3c5d3610b2f28654251cf0a4436b4701",
     "url": "/me/index.html"
   },
   {
-    "revision": "1ebae9014a933240fc5c",
+    "revision": "c1bb8ebf2155035a0629",
     "url": "/me/static/css/main.405e349d.chunk.css"
   },
   {
-    "revision": "ca16bb5b04b380a9068c",
-    "url": "/me/static/js/2.04cb049a.chunk.js"
+    "revision": "a8eb225d935e75dbb2f5",
+    "url": "/me/static/js/2.e143c58c.chunk.js"
   },
   {
-    "revision": "1ebae9014a933240fc5c",
-    "url": "/me/static/js/main.48725f1a.chunk.js"
+    "revision": "c1bb8ebf2155035a0629",
+    "url": "/me/static/js/main.70f9c1c2.chunk.js"
   },
   {
     "revision": "b16b36f6102d0cc8f957",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "88533ca7734a0d9c9ccc582b4b7324b4",
     "url": "/me/static/media/okirou_logo.88533ca7.png"
+  },
+  {
+    "revision": "b37c3a22c2e7223b838e560b46359199",
+    "url": "/me/static/media/psk-capture.b37c3a22.png"
   },
   {
     "revision": "d95eb69ea8a848610ef559265ac45af9",

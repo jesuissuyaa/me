@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/me/static/css/main.405e349d.chunk.css",
-    "main.js": "/me/static/js/main.48725f1a.chunk.js",
-    "main.js.map": "/me/static/js/main.48725f1a.chunk.js.map",
+    "main.js": "/me/static/js/main.70f9c1c2.chunk.js",
+    "main.js.map": "/me/static/js/main.70f9c1c2.chunk.js.map",
     "runtime~main.js": "/me/static/js/runtime~main.d6be6db6.js",
     "runtime~main.js.map": "/me/static/js/runtime~main.d6be6db6.js.map",
-    "static/js/2.04cb049a.chunk.js": "/me/static/js/2.04cb049a.chunk.js",
-    "static/js/2.04cb049a.chunk.js.map": "/me/static/js/2.04cb049a.chunk.js.map",
+    "static/js/2.e143c58c.chunk.js": "/me/static/js/2.e143c58c.chunk.js",
+    "static/js/2.e143c58c.chunk.js.map": "/me/static/js/2.e143c58c.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.db8f17df7fe304d28a4876cccdd8a101.js": "/me/precache-manifest.db8f17df7fe304d28a4876cccdd8a101.js",
+    "precache-manifest.4c7641db05eb76dc7a2efdd8f7b34e4b.js": "/me/precache-manifest.4c7641db05eb76dc7a2efdd8f7b34e4b.js",
     "service-worker.js": "/me/service-worker.js",
     "static/css/main.405e349d.chunk.css.map": "/me/static/css/main.405e349d.chunk.css.map",
     "static/media/checklist_logo.png": "/me/static/media/checklist_logo.f92032b4.png",
@@ -16,6 +16,7 @@
     "static/media/kashipedia-cover.png": "/me/static/media/kashipedia-cover.a6e94e42.png",
     "static/media/mamazon_logo.png": "/me/static/media/mamazon_logo.715557fa.png",
     "static/media/okirou_logo.png": "/me/static/media/okirou_logo.88533ca7.png",
+    "static/media/psk-capture.png": "/me/static/media/psk-capture.b37c3a22.png",
     "static/media/timecard_logo.png": "/me/static/media/timecard_logo.d95eb69e.png",
     "static/media/vocab-logo.png": "/me/static/media/vocab-logo.e30a7a55.png"
   }
