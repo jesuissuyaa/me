@@ -87,6 +87,9 @@ const Videos: React.FC = () => {
           margin-top: 3rem;
           margin-bottom: 0;
         }
+        h3 + iframe {
+          margin-top: 1rem;
+        }
         span {
           font-weight: bold;
         }
