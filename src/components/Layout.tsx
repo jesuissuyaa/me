@@ -21,13 +21,22 @@ const Layout: React.FC = props => (
         background-color: #FAFDF6;
         color: #454545;
         display: flex;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
       }
       main {
         height: 100vh;
         overflow-y: scroll;
         padding: 0 2rem;
       }
-     
+      @media screen and (max-width: 600px) {
+        main {
+          height: 90vh;
+          padding: 0 1rem; 
+        }
+        .container {
+          flex-flow: column;
+        }
+      }
     `}</style>
   </div>
 )

@@ -1,12 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Layout from './components/Layout';
-import Profile from './components/Profile';
-import Works from './components/Works';
-import Skills from './components/Skills';
-import Timeline from './components/Timeline';
-import Credits from './components/Credits';
+import React from "react";
+import "./App.css";
+import Layout from "./components/Layout";
+import Profile from "./components/Profile";
+import Works from "./components/Works";
+import Timeline from "./components/Timeline";
+import Credits from "./components/Credits";
+import Videos from "./components/Videos";
 
 const App: React.FC = () => {
   return (
@@ -14,8 +13,8 @@ const App: React.FC = () => {
       <Layout>
         <Profile />
         <Timeline />
-        {/* <Skills /> */}
         <Works />
+        <Videos />
         <Credits />
       </Layout>
       {/* <header className="App-header">
@@ -34,6 +33,6 @@ const App: React.FC = () => {
       </header> */}
     </div>
   );
-}
+};
 
 export default App;

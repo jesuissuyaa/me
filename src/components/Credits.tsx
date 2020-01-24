@@ -11,8 +11,18 @@ const Credits: React.FC = () => (
       </ul>
       from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     </div>
+    <div>Fonts
+      <ul>
+        <li>
+          <a href="https://fonts.google.com/specimen/Yanone+Kaffeesatz?selection.family=Yanone+Kaffeesatz">
+          Yanone Kaffeesatz
+          </a>
+        </li>
+      </ul>
+    </div>
+    
     <style jsx>{`
-      div:last-child {
+      div{
         margin-bottom: 2rem;
       }
       li {

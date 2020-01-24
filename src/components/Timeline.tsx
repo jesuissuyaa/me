@@ -74,6 +74,32 @@ const Block: React.FC<BlockProp> = props => (
       padding: .5rem 1rem;
       width: 40%;
     }        
+    @media screen and (max-width: 600px) {
+      .arrow {
+        border-left: none;
+        border-right: .5rem solid #B5BD89;
+        margin-top: .5rem;
+      }
+
+      .block {
+        flex-flow: row-reverse wrap;
+      }
+      .date {
+        margin-left: 15%;
+        width: 100%;
+      }
+      .point {
+        height: 2rem;
+        left: 0%;
+        margin-left: 0;
+        padding: .3rem;
+        width: 2rem;
+      }
+      .text {
+        border-radius: .7rem;
+        width: 75%;
+      }
+    }
     `}</style>
     </div>
 )
@@ -192,6 +218,26 @@ const Timeline: React.FC = () => (
       margin-top: -2.1rem; /* account for margin-bottom of last .block element */
       position: absolute;
       width: 1rem;
+    }
+    @media screen and (max-width: 600px) {
+      .legend-container {
+        flex-flow: column;
+      }
+      .legend-item {
+        margin-bottom: .5rem;
+      }
+      .timeline::before {
+        left: 0%;
+        margin-left: .9rem;
+        width: .3rem;
+      }
+      .start {
+        height: .7rem;
+
+        left: 0%;
+        margin-left: .7rem;
+        width: .7rem;
+      }
     }
     `}</style>
   </div>
