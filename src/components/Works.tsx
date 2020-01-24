@@ -14,6 +14,7 @@ import Kashipedia from "../assets/kashipedia-cover.png";
 import PSKCapture from "../assets/psk-capture.png";
 
 interface CardProps {
+  date?: string; // TODO: remove optional
   desc: string;
   kw: string[];
   logo: string;
@@ -56,6 +57,7 @@ const Card: React.FC<CardProps> = props => (
           </a>
         )}
       </div>
+      <div className="date-container">{props.date}</div>
       <div className="desc-container">
         {props.desc.split("。").map((s, i) => (
           <p key={i}>{s}</p>
@@ -107,7 +109,7 @@ const Card: React.FC<CardProps> = props => (
     }
     .desc-container p {
       margin-bottom: 0;
-      margin-top: .5rem;
+      margin-top: 1rem;
     }
     
     .kw {
@@ -141,8 +143,20 @@ const Works: React.FC = () => (
     <h2>IN PROGRESS</h2>
     <div className="card-container">
       <Card
+        logo={estrella}
+        title="ポートフォリオ"
+        date="2019/08 - 現在"
+        desc="このサイトです"
+        url="https://jesuissuyaa.github.io/me"
+        kw={["React.js", "Typescript", "CSS"]}
+      />
+    </div>
+    <hr />
+    <div className="card-container">
+      <Card
         logo={PSKCapture}
         title="サークルのサイト"
+        date="2019/11 - 現在"
         desc="サークルのメンバーを増やすために、サイトを作ることを提案してつくりました"
         url="https://jovial-davinci-f6241b.netlify.com/"
         kw={["GatsbyJS", "React.js"]}
@@ -150,6 +164,7 @@ const Works: React.FC = () => (
       <Card
         logo={Kashipedia}
         title="Kashipedia 2019"
+        date="2019/10"
         desc="学園祭で配布する研究室の冊子です。配色やレイアウトなどすべて自分で決めました。初めての冊子作成でしたがとても楽しかったです"
         url="https://drive.google.com/open?id=1C34eWl448HPspx3TqeLnUsatYqQJMq_c"
         kw={["Illustrator", "Design"]}
@@ -157,6 +172,7 @@ const Works: React.FC = () => (
       <Card
         logo={VocabLogo}
         title="vocab with context"
+        date="2019/07"
         desc="外国語の語彙を文章と一緒に勉強していくWebアプリです。画面にユーザが登録した文章が表示され、文章中の単語をクリックして、ハイライトや単語の意味を調べることができます"
         url="https://github.com/jesuissuyaa/tangochou"
         kw={[
@@ -170,43 +186,36 @@ const Works: React.FC = () => (
         qiitaUrl="https://qiita.com/jesuissuyaa/items/1ab2729539f4d32cfe17"
       />
       <Card
-        logo={estrella}
-        title="ポートフォリオ"
-        desc="このサイトです"
-        url="https://jesuissuyaa.github.io/me"
-        kw={["React.js", "Typescript", "CSS"]}
-      />
-    </div>
-    <hr></hr>
-    <div className="card-container">
-      <Card
-        logo={checklistLogo}
-        title="日めくりチェックリスト"
-        desc="時間指定が午前と午後しかないゆるめのTodoListです"
-        url="https://play.google.com/store/apps/details?id=jp.gr.java_conf.oleeapps"
-        kw={["Java", "Android"]}
-      />
-
-      <Card
-        logo={timecardLogo}
-        title="タイムカード"
-        desc="シンプルな使い勝手を意識したタイムカードです。地味にダウンロードが多くてびっくりしました"
-        url="https://play.google.com/store/apps/details?id=jp.gr.conf_java.oleeapps.timecard"
-        kw={["Java", "Android"]}
+        logo={okirouLogo}
+        title="バーチャル自習室〜オキ朗〜"
+        date="2018/02-2018/11"
+        desc="卒業研究で開発しました。WebRTCとFirebaseで、オンラインで放送大学生が集まって勉強できる場をつくりました。"
+        url="https://fireba-a8775.web.app/"
+        kw={["WebRTC", "Firebase", "Database", "jQuery"]}
       />
       <Card
         logo={mamazonLogo}
         title="ママゾン（仮）"
+        date="2018/03"
         desc="実家からの物資支援のストレスをなくすためのWebアプリです。「ほしいものリスト」には、自分が実家から送ってほしいものを入力し、「送れるものリスト」には、実家から送れるものを入力してもらいます"
         url="https://m-77740.web.app/"
         kw={["jQuery", "Firebase", "Database"]}
       />
       <Card
-        logo={okirouLogo}
-        title="バーチャル自習室〜オキ朗〜"
-        desc="卒業研究で開発しました。WebRTCとFirebaseで、オンラインで放送大学生が集まって勉強できる場をつくりました。"
-        url="https://fireba-a8775.web.app/"
-        kw={["WebRTC", "Firebase", "Database", "jQuery"]}
+        logo={timecardLogo}
+        title="タイムカード"
+        date="2018/01"
+        desc="シンプルな使い勝手を意識したタイムカードです。地味にダウンロードが多くてびっくりしました"
+        url="https://play.google.com/store/apps/details?id=jp.gr.conf_java.oleeapps.timecard"
+        kw={["Java", "Android"]}
+      />
+      <Card
+        logo={checklistLogo}
+        title="日めくりチェックリスト"
+        date="2017/07"
+        desc="時間指定が午前と午後しかないゆるめのTodoListです"
+        url="https://play.google.com/store/apps/details?id=jp.gr.java_conf.oleeapps"
+        kw={["Java", "Android"]}
       />
     </div>
     <style jsx>{`

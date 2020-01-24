@@ -4,7 +4,7 @@ const Videos: React.FC = () => {
   return (
     <div id="videos">
       <h1>Videos</h1>
-      <h2>ダンボールロボットシリーズ</h2>
+      <h2>ダンボールロボットシリーズ (2019/10-2020/02)</h2>
       <span>#RaspberryPi #React.js #DoraScript</span>
       <section>
         <p>
@@ -44,7 +44,7 @@ const Videos: React.FC = () => {
           src="https://drive.google.com/file/d/1DLRtubwhSvtgBFbkRpvFE8RJ_DPZsgEq/preview"
         />
       </section>
-      <h2>music visualizer</h2>
+      <h2>music visualizer (2020/01)</h2>
       <span>#SpotifyAPI #React.js</span>
       <section>
         <p>
