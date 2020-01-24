@@ -87,6 +87,9 @@ const Videos: React.FC = () => {
           margin-top: 3rem;
           margin-bottom: 0;
         }
+        span {
+          font-weight: bold;
+        }
         .videos {
           line-height: 1;
         }
@@ -94,16 +97,11 @@ const Videos: React.FC = () => {
           width: 40vw;
           height: calc(40vw / 1920 * 1080);
         }
-        .video-bot {
-          width: 40vw;
-          height: calc(60vw / 1920 * 1080);
-        }
-        .video-animals {
-          width: 60vw;
-          height: calc(60vw / 736 * 714);
-        }
-        span {
-          font-weight: bold;
+        @media screen and (max-width: 600px) {
+          .video {
+            width: 80vw;
+            height: calc(80vw / 1920 * 1080);
+          }
         }
       `}</style>
     </div>
