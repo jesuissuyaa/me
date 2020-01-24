@@ -20,29 +20,35 @@ const Videos: React.FC = () => {
         <p>
           ロボットがユーザに今の気分や好きな絵を聞きます。ユーザの回答に応じて、ロボットがおすすめの音楽を流しくれます。
         </p>
-        <iframe
-          className="video"
-          title="music-with-mood-bot"
-          src="https://drive.google.com/file/d/1Cif3RMpgC5gPJ6UbYHoNV28U1Q7fPTHt/preview"
-        />
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            title="music-with-mood-bot"
+            src="https://drive.google.com/file/d/1Cif3RMpgC5gPJ6UbYHoNV28U1Q7fPTHt/preview"
+          />
+        </div>
         <h3>面接ロボット</h3>
         <p>
           就活が嫌になってつくりました。一緒に面接の練習をしてくれるロボットは、どんな回答をしても内定をくれます。
         </p>
-        <iframe
-          className="video"
-          title="interview-bot"
-          src="https://drive.google.com/file/d/1autrzfHY0YnOW4LI1AJ3UOD5PGS1jMSu/preview"
-        />
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            title="interview-bot"
+            src="https://drive.google.com/file/d/1autrzfHY0YnOW4LI1AJ3UOD5PGS1jMSu/preview"
+          />
+        </div>
         <h3>挨拶ロボット</h3>
         <p>
           職場や研究室での挨拶をうながすロボットです。ロボットの「はわーゆー？」という質問に答えると、答えを音声認識してSlackの特定のワークスペースに投げてくれます。
         </p>
-        <iframe
-          className="video"
-          title="hello-bot"
-          src="https://drive.google.com/file/d/1DLRtubwhSvtgBFbkRpvFE8RJ_DPZsgEq/preview"
-        />
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            title="hello-bot"
+            src="https://drive.google.com/file/d/1DLRtubwhSvtgBFbkRpvFE8RJ_DPZsgEq/preview"
+          />
+        </div>
       </section>
       <h2>music visualizer (2020/01)</h2>
       <span>#SpotifyAPI #React.js</span>
@@ -56,38 +62,44 @@ const Videos: React.FC = () => {
             Pixel Party - Vexento
           </a>
         </h3>
-        <iframe
-          className="video"
-          title="pixel-party"
-          src="https://drive.google.com/file/d/1k0JZyZkWEoq9rMz363uWN6mfsCN3iTCe/preview"
-        />
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            title="pixel-party"
+            src="https://drive.google.com/file/d/1k0JZyZkWEoq9rMz363uWN6mfsCN3iTCe/preview"
+          />
+        </div>
         <h3>
           <a href="https://open.spotify.com/track/1TWfkGrhF7ob0nwB2M6knb?si=ZuFHQyVJRyyXxQnjB3rCQg">
             Animals - Martin Garrix
           </a>
         </h3>
-        <iframe
-          className="video"
-          title="animals"
-          src="https://drive.google.com/file/d/14sdH-knVWKzASw04gMXO2TsnA0fpcRAX/preview"
-        />
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            title="animals"
+            src="https://drive.google.com/file/d/14sdH-knVWKzASw04gMXO2TsnA0fpcRAX/preview"
+          />
+        </div>
         <h3>
           <a href="https://open.spotify.com/track/74zLQouoZ0wIj9Yr1x9Ayi?si=dsQJn2FwSHGuZPRTV265QQ">
             Suite Bergamasque I: Prélude - Claude Debussy
           </a>
         </h3>
-        <iframe
-          className="video"
-          title="bergamasque-prelude"
-          src="https://drive.google.com/file/d/1dV_A171-0QdfKGYssdRweUtDzcFhtUd9/preview"
-        />
+        <div className="video-wrapper">
+          <iframe
+            className="video"
+            title="bergamasque-prelude"
+            src="https://drive.google.com/file/d/1dV_A171-0QdfKGYssdRweUtDzcFhtUd9/preview"
+          />
+        </div>
       </section>
       <style jsx>{`
         h3 {
           margin-top: 3rem;
           margin-bottom: 0;
         }
-        h3 + iframe {
+        h3 + .video-wrapper {
           margin-top: 1rem;
         }
         span {
@@ -104,6 +116,10 @@ const Videos: React.FC = () => {
           .video {
             width: 80vw;
             height: calc(80vw / 1920 * 1080);
+          }
+          .video-wrapper {
+            display: flex;
+            justify-content: center;
           }
         }
       `}</style>

@@ -18,7 +18,7 @@ const Sidebar: React.FC = () => (
         <a href="#works">WORKS</a>
       </li>
       <li>
-        <a href="#works">VIDEOS</a>
+        <a href="#videos">VIDEOS</a>
       </li>
       <li>
         <a href="#credits">CREDITS</a>
