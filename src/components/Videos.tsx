@@ -1,4 +1,5 @@
 import * as React from "react";
+import Github from "../assets/GitHub-Mark-64px.png";
 
 const Videos: React.FC = () => {
   return (
@@ -50,8 +51,13 @@ const Videos: React.FC = () => {
           />
         </div>
       </section>
-      <h2>music visualizer (2020/01)</h2>
+      <div className="header">
+        <h2>music visualizer (2020/01)</h2>
+        <img src={Github} alt="Github" />
+      </div>
+
       <span>#SpotifyAPI #React.js</span>
+
       <section>
         <p>
           曲の色と構造を可視化する試みです。Spotify
@@ -104,6 +110,15 @@ const Videos: React.FC = () => {
         }
         span {
           font-weight: bold;
+        }
+        .header {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+        }
+        .header img {
+          height: 1.5rem;
+          margin-left: 1rem;
         }
         .videos {
           line-height: 1;
