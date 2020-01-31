@@ -53,7 +53,9 @@ const Videos: React.FC = () => {
       </section>
       <div className="header">
         <h2>music visualizer (2020/01)</h2>
-        <img src={Github} alt="Github" />
+        <a href="https://github.com/jesuissuyaa/spotify-visualizer/">
+          <img src={Github} alt="Github" />
+        </a>
       </div>
 
       <span>#SpotifyAPI #React.js</span>
