@@ -12,6 +12,7 @@ import VocabLogo from "../assets/vocab-logo.png";
 import Website from "./svg/Website";
 import Kashipedia from "../assets/kashipedia-cover.png";
 import PSKCapture from "../assets/psk-capture.png";
+import UELocal from "../assets/ue-local-logo.png";
 
 interface CardProps {
   date?: string; // TODO: remove optional
@@ -23,7 +24,7 @@ interface CardProps {
   /*github?: boolean*/
   qiitaUrl?: string;
 }
-const Card: React.FC<CardProps> = props => (
+const Card: React.FC<CardProps> = (props) => (
   <div className="card">
     <div className="col-l">
       <a href={props.url}>
@@ -154,9 +155,25 @@ const Works: React.FC = () => (
     <hr />
     <div className="card-container">
       <Card
+        logo={UELocal}
+        title="Uber Eats対応の個人店まとめ"
+        date="2020/05 - 現在"
+        desc="Uber Eatsの個人店を紹介するサイトです。microCMSで作成したコンテンツをGatsbyJSで実装したフロントエンドにGraphQLでひっぱってきて、Vercelでデプロイしています。SEOを初めて気にしたプロジェクトでもあり、TwitterのbotなどもAWSであわせてつくりました。"
+        url="https://ubereats-local.now.sh"
+        kw={[
+          "GatsbyJS",
+          "React.js",
+          "microCMS",
+          "Twitter API",
+          "Vercel",
+          "AWS",
+          "SEO",
+        ]}
+      />
+      <Card
         logo={PSKCapture}
         title="サークルのサイト"
-        date="2019/11 - 現在"
+        date="2019/11"
         desc="サークルのメンバーを増やすために、サイトを作ることを提案してつくりました"
         url="https://jovial-davinci-f6241b.netlify.com/"
         kw={["GatsbyJS", "React.js"]}
@@ -181,7 +198,7 @@ const Works: React.FC = () => (
           "Next.js",
           "API",
           "Database",
-          "scraping"
+          "scraping",
         ]}
         qiitaUrl="https://qiita.com/jesuissuyaa/items/1ab2729539f4d32cfe17"
       />
