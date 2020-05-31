@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d9a026dd7b1c853c5d9434ba353706a",
+    "revision": "ee6e466e5b359c6fa74ce1d4a59f1dc0",
     "url": "/me/index.html"
   },
   {
-    "revision": "c2ac1eb4ce429e338b6c",
+    "revision": "d521f989ef000e403a6d",
     "url": "/me/static/css/main.802fb8ab.chunk.css"
   },
   {
-    "revision": "823cc20446d6d30e0923",
-    "url": "/me/static/js/2.d3c8382b.chunk.js"
+    "revision": "e020c131e84b1ed76e00",
+    "url": "/me/static/js/2.88b74d6d.chunk.js"
   },
   {
-    "revision": "c2ac1eb4ce429e338b6c",
-    "url": "/me/static/js/main.52011b82.chunk.js"
+    "revision": "d521f989ef000e403a6d",
+    "url": "/me/static/js/main.d8b568c3.chunk.js"
   },
   {
     "revision": "b16b36f6102d0cc8f957",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d95eb69ea8a848610ef559265ac45af9",
     "url": "/me/static/media/timecard_logo.d95eb69e.png"
+  },
+  {
+    "revision": "74a0629b1d2f1721b042f15beafc050e",
+    "url": "/me/static/media/ue-local-logo.74a0629b.png"
   },
   {
     "revision": "e30a7a558d269c1f9cecfdcebd452485",
