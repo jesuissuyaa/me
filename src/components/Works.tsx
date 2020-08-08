@@ -235,6 +235,60 @@ const Works: React.FC = () => (
         kw={["Java", "Android"]}
       />
     </div>
+    <h2>NON-CODING</h2>
+    <ul>
+      <li>
+        2020/07:{" "}
+        <a href="https://twitter.com/AvaTheGame">AVA - Tarot Card Gameの翻訳</a>
+      </li>
+      <li>
+        2020/06: LINEスタンプ
+        <a href="https://store.line.me/stickershop/product/12509909/">
+          「にじいろもやし」
+        </a>
+        の制作
+      </li>
+      <li>
+        2019/12: LINEスタンプ
+        <a href="https://store.line.me/stickershop/product/10416113/">
+          「ぴくせるくらげ」
+        </a>
+        の制作
+      </li>
+      <li>
+        2019/12: LINEスタンプ
+        <a href="https://store.line.me/stickershop/product/10370366">
+          「からふるくらげ」
+        </a>
+        の制作
+      </li>
+    </ul>
+    <h2>PRESENTATIONS</h2>
+    <ul>
+      <li>
+        2020/07/17:{" "}
+        <a href="http://nextedu.chiegumi.jp/com/SeminarDetail.php?ct=4345206028&cs=180">
+          第168回次世代大学教育研究会
+        </a>
+        「
+        <a href="https://docs.google.com/presentation/d/1_fZ-iAHPtneDA8lsNyPNgoowM7S1SdcrI8O2Lpalrro/edit?usp=sharing">
+          オンラインで研究室（と自分）維持
+        </a>
+        」
+      </li>
+      <li>
+        2020/06/30:{" "}
+        <a href="http://www.f.waseda.jp/harada/courses/2020/educational-linguistics20-spring-j.html">
+          教育学研究科設置言語学研究
+        </a>
+        「
+        <a href="https://docs.google.com/presentation/d/1AJkVC82wOXMbA0t43fJkzLos9mZRM57jI4ZsFyYWXgo/edit?usp=sharing">
+          学習工学におけるWeb調べ学習とその支援方法
+        </a>
+        」
+      </li>
+    </ul>
+
     <style jsx>{`
       hr {
         border-top: 0.1rem dashed #454545;

@@ -4,7 +4,7 @@ import Layout from "./components/Layout";
 import Profile from "./components/Profile";
 import Works from "./components/Works";
 import Timeline from "./components/Timeline";
-import Credits from "./components/Credits";
+// import Credits from "./components/Credits";
 import Videos from "./components/Videos";
 
 const App: React.FC = () => {
@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <Timeline />
         <Works />
         <Videos />
-        <Credits />
+        {/* <Credits /> */}
       </Layout>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
